@@ -1,10 +1,13 @@
 import com.github.britooo.looca.api.core.Looca;
 import com.github.britooo.looca.api.group.discos.Disco;
 import com.github.britooo.looca.api.group.discos.DiscoGrupo;
+import com.github.britooo.looca.api.group.janelas.Janela;
+import com.github.britooo.looca.api.group.janelas.JanelaGrupo;
 import com.github.britooo.looca.api.group.memoria.Memoria;
 import com.github.britooo.looca.api.group.processador.Processador;
 import com.github.britooo.looca.api.group.processos.Processo;
 import com.github.britooo.looca.api.group.processos.ProcessoGrupo;
+import com.github.britooo.looca.api.group.rede.Rede;
 import com.github.britooo.looca.api.group.servicos.Servico;
 import com.github.britooo.looca.api.group.servicos.ServicoGrupo;
 import com.github.britooo.looca.api.group.sistema.Sistema;
@@ -74,6 +77,20 @@ public class TesteLooca {
         System.out.println("*----- Processos -----*");
         for (Processo processo : processos) {
             System.out.println(processo);
+        }
+
+        // Rede:
+        Rede rede = looca.getRede();
+        System.out.println("*----- Rede -----*");
+        System.out.println(rede);
+
+        // Janelas:
+        JanelaGrupo grupoDeJanelas = looca.getGrupoDeJanelas();
+        List<Janela> janelas = grupoDeJanelas.getJanelas();
+
+        System.out.println("*----- Janelas -----*");
+        for (Janela janela : janelas) {
+            System.out.println(janela);
         }
 
         System.exit(0);
