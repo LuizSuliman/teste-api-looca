@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19b79eb6-abd0-4f09-8207-87fe4f368b16" name="Changes" comment="Adição de métodos de Rede e Janelas" />
+    <list default="true" id="19b79eb6-abd0-4f09-8207-87fe4f368b16" name="Changes" comment="Arquivo workspace.xml atualizado">
+      <change afterPath="$PROJECT_DIR$/src/main/java/TesteOshiGPU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +28,20 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LuizSuliman&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="7b593722-339a-41e2-b8ae-b6c7c61b1a24" />
+        <option name="url" value="https://github.com/LuizSuliman/teste-api-looca.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -119,7 +137,23 @@
       <option name="project" value="LOCAL" />
       <updated>1695500847836</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Arquivo encoding.xml">
+      <option name="closed" value="true" />
+      <created>1695500990884</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695500990884</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Arquivo workspace.xml atualizado">
+      <option name="closed" value="true" />
+      <created>1695501008401</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695501008401</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,6 +170,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Configuração do Looca e Código de Teste" />
     <MESSAGE value="Adição de métodos de Rede e Janelas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adição de métodos de Rede e Janelas" />
+    <MESSAGE value="Arquivo encoding.xml" />
+    <MESSAGE value="Arquivo workspace.xml atualizado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arquivo workspace.xml atualizado" />
   </component>
 </project>
